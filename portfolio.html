@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hosam abuelhija</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+          /* *{
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.401);
+            text-align: center;
+          } */
+          .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-image: url("Screenshot (11).png");
+            background-size: cover;
+            width: 100%;
+            height: 700px;
+            text-align: center;
+          }
+          h1{
+            color: rgba(76, 147, 239, 0.903);
+             text-align: left; 
+             font-size: 60px; 
+             text-shadow: 3px 2px rgba(0, 0, 0, 0.401);
+             font-weight: bolder;
+          }
+          .logo{
+            width: 50px;
+          }
+          .sec1 {
+            display: flex;
+            background-image: url("Screenshot (12).png");
+            background-size: cover;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            width: 100%;
+          }
+          .div-sushi{
+            display: flex;
+            background-image: url("Screenshot (12).png");
+            background-size: cover;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            width: 100%;
+          }
+          .cards-container {
+            display: flex;
+            background-image: url("Screenshot (11).png");
+            background-size: cover;
+            justify-content: space-between;
+            padding: 100px;
+            height: 700px;
+          }
+          .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-color: rgba(100, 127, 150, 0.367);
+            width: 29%; 
+            text-align: center;
+
+          }
+          /* .card:hover{
+            position: -ms-page;
+            width: 350px;
+            height: 600px;
+          } */
+          .flex {
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url(Screenshot\ \(11\).png);
+            background-size: cover;
+            height: auto;
+            padding: 30px;
+            justify-content: center;
+          }
+          .div1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 50%;
+            padding: 20px;
+            color: white;
+          }
+          .icon{
+            width: 60px;
+            align-self: center;
+            margin-top: 30px;
+          }
+          footer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+            height: 300px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+            padding: 70px;
+            gap: 40px;
+            background-image: url(Screenshot\ \(12\).png);
+          }
+          .logo1{
+            width: 150px;
+          }
+          
+          .sushi-icon {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.sushi-icon{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sushi-icon:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sushi-icon:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.sushi-icon:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+        .sec2{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-image: url(Screenshot\ \(11\).png);
+          background-size: cover;
+          height: 700px;
+          padding: 30px;
+
+        }
+        .platforms{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 60%;
+          align-items: center;
+        }
+        .grid{
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+        .social-icon{
+          margin: 20px;
+        }
+        .sushi{
+          width: 250px;
+          border-radius: 50%;
+          opacity: 0.8;
+        }
+
+          @media screen and (max-width: 740px) {
+            .header{
+              flex-wrap: wrap;
+              height: auto;
+              gap: 40px;
+            }
+            .potatohead{
+              width: 500px;
+            }
+            h1{
+              text-align: center;
+            }
+            .pp{
+              text-align: center !important;
+            } 
+
+            .cards-container {
+              flex-wrap: wrap;
+              gap: 20px;
+              height: auto;
+              padding: 60px;
+            }
+            .card {
+              width: auto;
+            }
+            .flex{
+              flex-wrap: wrap;
+            }
+            .div1{
+              width: auto;
+            }
+            footer{
+              flex-wrap: wrap;
+              height: auto;
+              justify-content: center;
+            }
+          }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar sticky-top  navbar-expand-lg" style="background-color: rgba(5, 15, 75, 0.993) !important">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="Mr._Potato_Head_Render.webp" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: #6eace5; background-color: rgb(221, 152, 209);">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active "  aria-current="page" href="#home" style="color: #6eace5;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme" style="color: #6eace5;">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myskills" style="color: #6eace5;">My Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mybackground" style="color: #6eace5;">My Background</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mywork" style="color: #6eace5;">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sushi-prods" style="color: #6eace5;">SUSHI PROD'S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme" style="color: #6eace5;">Contact Me</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header" id="home">
+      <div>
+        <img src="Mr._Potato_Head_Render.webp" class="potatohead">
+      </div>
+      <div>
+      <h1>HOSAM ABUELHIJA</h1>
+      <p class="pp" style="color: rgb(221, 152, 209); text-align: left;">
+        Full-stack Developer, Audio Engineer
+      </p>
+    </div>
+    </div>
+    <div class="sec1" id="aboutme">
+      <div>
+      <h2 style="color: rgba(150, 203, 209, 0.777)">ABOUT ME</h2>
+      <br />
+      <p style="color: rgba(150, 203, 209, 0.777); margin: 70px;">
+        Versatile media professional, skilled journalist, and adept producer
+         with a strong academic background in Social Communication.
+          Exceptional writing abilities coupled with multimedia expertise,
+           including advanced production skills. Proven track record in 
+           crafting compelling content and navigating the dynamic media landscape.
+
+      </p>
+    </div>
+    </div>
+    <div class="cards-container" id="myskills">
+      <div class="card">
+        <img src="graduation-cap-solid.svg" class="icon"/>
+        <br>
+        <h2 style="color: rgb(0, 0, 0)">Bachelor's Degree</h2>
+        <br/>
+        <p style="color: rgb(0, 0, 0); margin: 20px;">
+          holds a baccalaureate degree in mass communication,
+           media from Yarmouk University
+        </p>
+      </div>
+      <div class="card">
+        <img src="volume-high-solid.svg" class="icon"/>
+        <br>
+        <h2 style="color: rgb(0, 0, 0)">Music Production</h2>
+        <br/>
+        <p style="color: rgb(0, 0, 0); margin: 20px;">
+          professional producer for six years expert in recording,
+           editing, composing, mixing and mastering.
+        </p>
+      </div>
+      <div class="card">
+        <img src="laptop-code-solid.svg" class="icon"/>
+        <br>
+        <h2 style="color: rgb(0, 0, 0)">Web Development</h2>
+        <br/>
+        <br>
+        <p style="color: rgb(0, 0, 0); margin: 20px;">
+          Currently a Full-stack developer trainee at Orange Academy<br>
+        </p>
+      </div>
+    </div>
+
+    <div class="sec1" id="mybackground">
+      <div>
+      <h2 style="color: rgba(150, 203, 209, 0.777)">My Background</h2>
+      <br />
+      <p style="color: rgba(150, 203, 209, 0.777); margin: 70px;">
+        Welcome to Responsive web Welcome to Responsive web Welcome to
+        Responsive web Welcome to Responsive web Welcome to Responsive web
+        Welcome to Responsive web
+      </p>
+    </div>
+    </div>
+    <div class="sec2" id="mywork">
+    <div><h3 style="color: rgba(150, 203, 209, 0.777);">Check Out My Work</h3></div><br>
+    <div class="platforms">
+      <div class="platforms-icons">
+        <a href="https://www.youtube.com/channel/UCp3eRMBhixYBaLfEyLYsf9g"><img src="youtube.svg" class="icon"/></a>
+      </div>
+      <div class="platforms-icons">
+        <a href="https://open.spotify.com/intl-ar/artist/2QhIh1mas2F4M9Jy9AoMqF"><img src="spotify.svg" class="icon"/></a>
+      </div>
+      <div class="platforms-icons">
+        <a href="https://www.deezer.com/us/artist/168450167"><img src="deezer.svg" class="icon"/></a>
+      </div>
+      <div class="platforms-icons">
+        <a href="https://soundcloud.com/sam-hija"><img src="soundcloud.svg" class="icon"/></a>
+      </div>
+      <div class="platforms-icons">
+        <a href="https://music.apple.com/us/artist/sam-hija/1621861378"><img src="itunes.svg" class="icon"/></a>
+      </div>
+      <div class="platforms-icons">
+        <a href="https://play.anghami.com/artist/14313173"><img src="music-solid.svg" class="icon"/></a>
+      </div>
+    </div>
+  </div>
+  <div class="div-sushi" id="sushi-prods">
+    <div>
+      <div>
+      <img src="sushi logo.png" class="sushi">
+      </div><br><br>
+    <h2 style="color: rgba(150, 203, 209, 0.777)">SUSHI PROD'S</h2>
+    <p style="color: rgba(150, 203, 209, 0.777); margin: 70px;">
+      Sushi productions is one of my irl projects, it's a music studio
+       based in irbid-jordan were I'm offering many services such as audio 
+       engineering, recording, music producing, video production, and more<br>
+       <a href="https://dev-hosamabuelhija.pantheonsite.io/" class="sushi-icon">Visit Site</a>
+    </p>
+    
+  </div>
+  </div>
+    <div class="flex" id="contactme">
+      <div class="div1">
+        <h3>Social Accounts</h3>
+        <br />
+        <div class="grid">
+          <div class="social-icon">
+            <a href="https://facebook.com/samhija27"><img src="facebook.svg" class="icon"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://instagram.com/samhija"><img src="instagram.svg" class="icon"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://www.snapchat.com/add/sam_ad27?share_id=O4yx6UZJR0W4XutkdJaCzQ&locale=en_JO"><img src="snapchat.svg" class="icon"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://threads.net/@samhija"><img src="threads.svg" class="icon"/></a>
+          </div>
+        </div>
+      </div>
+      <div class="div1">
+        <h2>Contact Me</h2>
+        <br />
+        <div class="grid">
+          <div class="social-icon">
+            <a href="mailto:hosam.adnan123@gmail.com"><img src="envelope-regular.svg" class="icon"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://wa.me/962785571654"><img src="whatsapp.svg" class="icon"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://www.linkedin.com/in/hosam-abuelhija-264b032b7/"><img src="linkedin.svg" class="icon"/></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://github.com/hosam-abuelhija"><img src="github.svg" class="icon"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div>
+        <img src="Mr._Potato_Head_Render.webp" class="logo1">
+      </div>
+      <div>
+        <p>&copy; 2024 Hosam Abuelhija</p>
+      </div>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.682470204929!2d35.84976974030379!3d32.55264623588766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c7715f2c2e7ab%3A0x51755840c8ddbefd!2sOrange%20Digital%20Village%20Irbid!5e0!3m2!1sar!2sjo!4v1716102624509!5m2!1sar!2sjo" width="350" height="200" style="border:0px; border-radius: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
