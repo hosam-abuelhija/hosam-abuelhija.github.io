@@ -6,8 +6,15 @@
             background-image: url("Screenshot (11).png");
             background-size: cover;
             width: 100%;
-            height: 700px;
+            height: 750px;
             text-align: center;
+            gap: 70px;
+          }
+          p{
+            font-size: large;
+          }
+          p:hover{
+            text-shadow: 1px 1px rgba(112, 106, 106, 0.774);
           }
           h1{
             color: rgba(76, 147, 239, 0.903);
@@ -18,6 +25,7 @@
           }
           .logo{
             width: 50px;
+            border-radius: 50%;
           }
           .sec1 {
             display: flex;
@@ -26,7 +34,17 @@
             text-align: center;
             justify-content: center;
             align-items: center;
-            height: 700px;
+            height: 750px;
+            width: 100%;
+          }
+          .background{
+            display: flex;
+            background-image: url("Screenshot (12).png");
+            background-size: cover;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 750px;
             width: 100%;
           }
           .div-sushi{
@@ -36,8 +54,12 @@
             text-align: center;
             justify-content: center;
             align-items: center;
-            height: 700px;
+            height: 750px;
             width: 100%;
+            gap: 100px;
+          }
+          .sushi-discription{
+            width: 400px;
           }
           .cards-container {
             display: flex;
@@ -45,7 +67,7 @@
             background-size: cover;
             justify-content: space-between;
             padding: 100px;
-            height: 700px;
+            height: 750px;
           }
           .card {
             display: flex;
@@ -58,19 +80,20 @@
             text-align: center;
 
           }
-          /* .card:hover{
-            position: -ms-page;
-            width: 350px;
-            height: 600px;
-          } */
+          .card:hover{
+            transform: scale(1.05);
+            box-shadow: 2px 2px   rgba(115, 110, 110, 0.326);
+            background-color: rgba(100, 127, 150, 0.445);
+          }
           .flex {
             display: flex;
             flex-wrap: wrap;
             background-image: url(Screenshot\ \(11\).png);
             background-size: cover;
-            height: auto;
+            height: 750px;
             padding: 30px;
             justify-content: center;
+            align-items: center;
           }
           .div1 {
             display: flex;
@@ -84,6 +107,10 @@
             width: 60px;
             align-self: center;
             margin-top: 30px;
+          }
+          .icon:hover{
+            opacity: 0.6;
+            
           }
           footer {
             display: flex;
@@ -101,7 +128,9 @@
             background-image: url(Screenshot\ \(12\).png);
           }
           .logo1{
-            width: 150px;
+            width: 100px;
+            border-radius: 50%;
+            opacity: 0.7;
           }
           
           .sushi-icon {
@@ -151,7 +180,7 @@
           justify-content: center;
           background-image: url(Screenshot\ \(11\).png);
           background-size: cover;
-          height: 700px;
+          height: 750px;
           padding: 30px;
 
         }
@@ -174,6 +203,11 @@
           border-radius: 50%;
           opacity: 0.8;
         }
+        .potatohead{
+          width: 400px;
+          opacity: 0.8;
+          border-radius: 50%;
+        }
 
           @media screen and (max-width: 740px) {
             .header{
@@ -181,8 +215,15 @@
               height: auto;
               gap: 40px;
             }
+            .background{
+              height: auto;
+              p{
+                font-size: medium;
+              }
+            }
             .potatohead{
-              width: 500px;
+              width: 300px;
+              margin-top: 80px;
             }
             h1{
               text-align: center;
@@ -202,6 +243,7 @@
             }
             .flex{
               flex-wrap: wrap;
+              height: auto;
             }
             .div1{
               width: auto;
@@ -210,5 +252,9 @@
               flex-wrap: wrap;
               height: auto;
               justify-content: center;
+            }
+            .div-sushi{
+              flex-wrap: wrap;
+              gap: 1px;
             }
           }
